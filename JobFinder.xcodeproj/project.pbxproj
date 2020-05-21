@@ -13,6 +13,7 @@
 		BABC160B2476E22C0028FA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABC160A2476E22C0028FA98 /* Assets.xcassets */; };
 		BABC160E2476E22C0028FA98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABC160D2476E22C0028FA98 /* Preview Assets.xcassets */; };
 		BABC16112476E22C0028FA98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABC160F2476E22C0028FA98 /* LaunchScreen.storyboard */; };
+		BABC161A2476F0CD0028FA98 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABC16192476F0CD0028FA98 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BABC160D2476E22C0028FA98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BABC16102476E22C0028FA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BABC16122476E22C0028FA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABC16192476F0CD0028FA98 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		BABC16032476E22B0028FA98 /* JobFinder */ = {
 			isa = PBXGroup;
 			children = (
+				BABC16182476F0B80028FA98 /* HomeView */,
 				BABC16042476E22B0028FA98 /* AppDelegate.swift */,
 				BABC16062476E22B0028FA98 /* SceneDelegate.swift */,
 				BABC16082476E22B0028FA98 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				BABC160D2476E22C0028FA98 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BABC16182476F0B80028FA98 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				BABC16192476F0CD0028FA98 /* HomeView.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			files = (
 				BABC16052476E22B0028FA98 /* AppDelegate.swift in Sources */,
 				BABC16072476E22B0028FA98 /* SceneDelegate.swift in Sources */,
+				BABC161A2476F0CD0028FA98 /* HomeView.swift in Sources */,
 				BABC16092476E22B0028FA98 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
